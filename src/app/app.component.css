@@ -1,0 +1,40 @@
+.app{
+  height: 100vh;
+  background-color: rgb(40, 44, 52);
+  color: white;
+  transition: all 0.5s linear 0s;
+  text-align: center;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-evenly;
+}
+
+.theme{
+  position: absolute;
+  top:0px;
+  right:15px;
+  padding: 10px;
+}
+.title{
+  font-family: Montserrat,sans-serif;
+  font-size: 7vw;
+  text-transform: uppercase;
+}
+.subTitle{
+  font-family: Montserrat,sans-serif;
+  font-size: 5vw;
+}
+.meanings{
+    border: 10px solid #696969;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding: 10px 20px;
+}
+
